@@ -1,0 +1,26 @@
+.introScreen {
+    background-color: #fffafa;
+    color: #222831;
+    height: 100vh;
+}
+
+.mainFlexContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.introName {
+    font-size: 28pt;
+}
+
+.pictureContainer {
+    max-width: 50%;
+}
+
+.monitorImage{
+    max-width: 100%;
+    height: auto;
+    max-height: 100%;
+}
