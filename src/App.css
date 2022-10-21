@@ -10,8 +10,12 @@ White: #EEEEEE
 
 */
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Cabin', sans-serif;
-  background-color: #222831;
-  color: #ffffff
 }
+
+

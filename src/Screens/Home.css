@@ -1,26 +1,33 @@
-.introScreen {
-    background-color: #fffafa;
-    color: #222831;
+.headerContainer {
     height: 100vh;
+    padding-top: 20vh;
+    padding-bottom: 20vh;
 }
 
-.mainFlexContainer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
+.headerChild {
+    height: 60vh;
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
 }
 
-.introName {
+.headerText {
+    position: absolute;
+}
+
+.headerTitle {
     font-size: 28pt;
+    color: gray;
 }
 
-.pictureContainer {
-    max-width: 50%;
+.headerSubTitle {
+    color: green;
 }
 
-.monitorImage{
-    max-width: 100%;
-    height: auto;
+.monitorImage {
     max-height: 100%;
+    margin-left: auto;
+    margin-right: 0px;
+    display: block;
 }
